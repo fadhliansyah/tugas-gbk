@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+    <form action="https://blackgoosebistro.com/pizza.php" method="post"></form>
+    <p>Our 12" wood-fired pizzas are available dor delivery. Build your custom pizza and we'll deliver it within an
+        hour.</p>
+    <p>Your Information</p>
+    <table cellspacing="15">
+        <tr>
+            <td>Name</td>
+            <td>:</td>
+            <td><input type="text" id="username" name="username" placeholder="Please fill Username" value=""></td>
+        </tr>
+        <tr>
+            <td>Addres</td>
+            <td>:</td>
+            <td><input type="text" id="addres" name="addres" placeholder="Please fill Addres" value=""></td>
+        </tr>
+        <tr>
+            <td>Telephone Number</td>
+            <td>:</td>
+            <td><input type="number" id="number" name="number" placeholder="Please fill telephone number" value=""></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td><input type="email" id="mail" name="mail" placeholder="Please fill Email" value=""></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Delivery Instructions</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><textarea name="" id="" cols="50" rows="5"></textarea>></td>
+        </tr>
+    </table>
+    <h2>Design Tour Dream Pizza : </h2>
+    <p>Pizza specs</p>
+    <p>Crust (Choose one) : </p>
+    <ol>
+        <input type="radio" name="rasa" value="Classic white" id="">Classic white
+        <br>
+        <input type="radio" name="rasa" value="Multigrain" id="">Multigrain
+        <br>
+        <input type="radio" name="rasa" value="Cheese-stuffed crust" id="">Cheese-stuffed crust
+        <br>
+        <input type="radio" name="rasa" value="Gluten-free" id="">Gluten-free
+    </ol>
+    <p>Toppings (Choose as many as you want) </p>
+    <form action="https://blackgoosebistro.com/pizza.php">
+        <input type="checkbox" name="toping1" id="toping1" value="toping">
+        <label for="toping1">Red sauce</label>
+        <br>
+        <input type="checkbox" name="toping2" id="toping2" value="toping">
+        <label for="toping2">White sauce</label>
+        <br>
+        <input type="checkbox" name="toping3" id="toping3" value="toping">
+        <label for="toping3">Mozzarella cheese</label>
+        <br>
+        <input type="checkbox" name="toping4" id="toping4" value="toping">
+        <label for="toping4">Pepperoni</label>
+        <br>
+        <input type="checkbox" name="toping5" id="toping5" value="toping">
+        <label for="toping5">Mushrooms</label>
+        <br>
+        <input type="checkbox" name="toping6" id="toping6" value="toping">
+        <label for="toping6">Peppers</label>
+        <br>
+        <input type="checkbox" name="toping7" id="toping7" value="toping">
+        <label for="toping7">Anchovies</label>
+    </form>
+    <p>Number</p>
+    <label>How many pizza <input type="number" name="pizza" min="1" max="6"> </label>
+    <br> <br>
+    <button>Bring me a pizza! <a href="index2.html"></a></button> <button>Reset</button>
+</body>
+
+</html>
