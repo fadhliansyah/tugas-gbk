@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login login an</title>
+</head>
+
+<body>
+
+  <table cellspacing=15>
+    <tr>
+      <td for="username">Username :</td>
+      <td><input id="username" type="text"></td>
+    </tr>
+    <tr>
+      <td for="password">Password :</td>
+      <td><input id="password" type="password"></td>
+    </tr>
+    <tr>
+      <td><button type="submit" onclick="login()">login</button></td>
+    </tr>
+
+  </table>
+
+  <script>
+
+    function login() {
+      let username = document.getElementById('username');
+      let password = document.getElementById('password');
+
+      if (username.value === 'ahmad2017' && password.value === 'integrity') {
+        window.location.href = 'login_success.html';
+      } else {
+        document.write('Gagal Login. Silahkan Coba Lagi')
+      }
+    }
+
+
+  </script>
+</body>
+
+</html>
